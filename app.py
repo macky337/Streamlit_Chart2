@@ -63,7 +63,7 @@ def main():
     symbol_options = ['^DJI', '^IXIC', '^GSPC', 'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'meta', 'TSLA',
                       'NVDA', 'PYPL', 'NFLX', 'CRM', 'INTC', 'ARM', 'CRWD', 'amd', 'adbe',
                       '8411.T', '7735.T', '8035.T', '9984.T']
-    default_symbols = ['AAPL', 'MSFT', 'GOOGL','^DJI']
+    default_symbols = ['AAPL', 'MSFT', 'GOOGL', '^DJI']
 
     # 全選択ボタン
     if st.sidebar.button('登録銘柄を全部選択'):
